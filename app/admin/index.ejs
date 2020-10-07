@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin</title>
+  </head>
+  <body>
+    <h1>
+      <%= data.message %>
+    </h1>
+    <p>
+      <%= adminCss %>
+    </p>
+    <p></p>
+    <pre><%- JSON.stringify(data) %></pre>
+    <pre><%- JSON.stringify(admin) %></pre>
+    <pre><%- admin.postMeta %></pre>
+  </body>
+</html>
